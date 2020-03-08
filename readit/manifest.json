@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Readit",
+  "version": "1.0",
+  "description": "Reads the seleted text",
+  "icons": {
+    "128": "icon.png",
+    "48": "icon.png",
+    "16": "icon.png"
+  },
+  "permissions": [
+    "tts",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["eventsPage.js"],
+    "persistent": false
+  }
+}
